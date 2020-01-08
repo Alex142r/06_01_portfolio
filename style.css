@@ -1,0 +1,380 @@
+/*______________________________generelle indstillinger*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    background-color: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+    padding: 5vw;
+}
+
+section {
+    max-width: 1400px;
+    margin: auto;
+
+}
+
+
+/*__________________________________________Typografier*/
+
+h1 {
+    font-family: 'oswald', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: black;
+}
+
+h2 {
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    font-size: large;
+    color: black;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/*_____________________________________Typografier_slut*/
+/*________________________________________________header*/
+header {
+
+    position: fixed;
+    width: 100%;
+    justify-content: right;
+    cursor: pointer;
+}
+
+header nav {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    /*    justify-content: flex-end;*/
+    align-items: flex-end;
+    padding: 0.7rem;
+    text-decoration: none;
+    font-family: 'Russo One', sans-serif;
+
+}
+
+header nav a {
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #81A75A;
+}
+
+header nav a:link {
+    color: white;
+}
+
+/* visited link */
+header nav a:visited {
+    color: black;
+}
+
+/* mouse over link */
+header nav a:hover {
+    color: #D7564A;
+    transition: .5s ease;
+    transform: scale(1.07);
+
+}
+
+/* selected link */
+header nav a:active {
+    color: #E8CAFD;
+}
+
+
+
+/*___________________________________________header_slut*/
+
+/*_____________________________________forside_sectionen*/
+
+#forside {
+    background-image: url(Billeder/billeder_utext/portfolio_lille.jpg);
+    background-size: cover;
+    height: 95vh;
+    width: 95vw;
+
+}
+
+
+
+/*__________________________________________Forside slut*/
+
+/*____________________________________Oversigt_sectionen*/
+
+#oversigt .sectionwrapper {
+
+    flex-basis: 500px;
+    flex-direction: row;
+
+}
+
+#oversigt .col {
+    max-width: 500px;
+    margin: auto;
+    height: 500px;
+    width: 500px;
+}
+
+#oversigt img:hover {
+    transition: .5s ease;
+    transform: scale(1.07);
+}
+
+
+/*_________________________________________web_sectionen*/
+
+#web .sectionwrapper {
+    display: flex;
+    flex-basis: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 5px 5px 5px;
+
+
+
+}
+
+#web .col_txt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 300px;
+    background-color: aqua;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#web .col_img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+
+
+/*____________________________________Web_sectionen_slut*/
+/*__________________________________________ux_sectionen*/
+#ux .sectionwrapper {
+    display: flex;
+    flex-basis: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 5px 5px 5px;
+    justify-content: center;
+
+}
+
+#ux .col_txt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 400px;
+    background-color: #FFC32D;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#ux .col_img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 300px;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+/*_____________________________________ux_sectionen_slut*/
+
+/*_____________________________________animation_section*/
+#animation .sectionwrapper {
+    display: flex;
+    flex-basis: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 5px 5px 5px;
+    align-items: flex-start;
+
+}
+
+#animation .col_txt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: aqua;
+
+}
+
+#animation .col_img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 5px;
+
+}
+
+
+
+iframe {
+    width: 100%;
+    height: 56.25vw;
+    border: 0;
+}
+
+
+/*________________________________animation_section_slut*/
+
+/*_____________________________________indhold_sectionen*/
+
+#content .sectionwrapper {
+    display: flex;
+    flex-basis: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#content .col_txt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 0px 5px 5px 5px;
+    background-color: #3964C6;
+    border-radius: 25px;
+}
+
+#content .col_img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 0px 5px 5px 5px;
+}
+
+#content img {
+    width: 100%;
+}
+
+#content video {
+    width=100%;
+    height=100%;
+    padding-left: 8vw;
+
+}
+
+
+
+/*__________________________________________media_querys*/
+
+/*____________________________________________header*/
+@media only screen and (min-width:600px) {
+
+
+
+    header nav {
+        flex-direction: row;
+        justify-content: flex-end;
+
+    }
+
+    header nav a {
+        border-right: none;
+
+    }
+
+    header nav a:last-child {
+        border-right: none;
+        padding: 1rem;
+    }
+}
+
+
+/*Forside billede*/
+@media only screen and (min-width: 550px) {
+    #forside {
+        width: 100vw;
+        height: 56.25vw;
+        background-image: url(Billeder/billeder_utext/splash.jpg);
+        background-size: cover;
+    }
+}
+
+/*_____________________________________________container*/
+
+@media only screen and (min-width:950px) {
+
+
+
+
+
+    #web .col_txt,
+    #web .col_img,
+    #ux .col_txt,
+    #ux .col_img,
+    #content .col {
+        max-width: 600px;
+        margin: auto;
+        display: flex;
+
+    }
+}
+
+
+
+
+@media only screen and (min-width:550px) {
+
+
+
+
+    #web .sectionwrapper {
+
+        display: flex;
+        flex-direction: row;
+
+    }
+}
+
+
+
+/*____________________________________oversigt container*/
+
+@media only screen and (min-width:800px) {
+
+    #oversigt .sectionwrapper {
+        display: flex;
+    }
+}
+
+/*        animation container*/
+
+@media only screen and (min-width:800px) {
+    #animation .sectionwrapper {
+        display: flex;
+    }
+}

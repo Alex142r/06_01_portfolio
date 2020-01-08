@@ -3,3 +3,4 @@
 # Example .gitignore files: https://github.com/github/gitignore
 /bower_components/
 /node_modules/
+/Billeder/movie_done.mp4

@@ -28,6 +28,7 @@ section {
 /*__________________________________________Typografier*/
 
 h1 {
+    font-size: 3rem;
     font-family: 'oswald', sans-serif;
     font-weight: 700;
     font-size: xx-large;
@@ -35,6 +36,7 @@ h1 {
 }
 
 h2 {
+    font-size: 2rem;
     font-family: 'oswald', sans-serif;
     font-weight: 400;
     font-size: large;
@@ -43,7 +45,7 @@ h2 {
 
 p {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: 'Lato', sans-serif;
     color: black;
     font-weight: 100;
@@ -76,7 +78,7 @@ header nav a {
     margin: 0.5rem;
     padding: 1rem;
     border-radius: 10px;
-    background-color: #81A75A;
+    background-color: #EDD8AC;
 }
 
 header nav a:link {
@@ -159,7 +161,7 @@ header nav a:active {
     flex-wrap: wrap;
     flex-grow: 1;
     flex-basis: 300px;
-    background-color: aqua;
+    background-color: #EDD8AC;
     border-radius: 15px;
     padding: 10px;
 }
@@ -190,7 +192,7 @@ header nav a:active {
     flex-wrap: wrap;
     flex-grow: 1;
     flex-basis: 400px;
-    background-color: #FFC32D;
+    background-color: #EDD8AC;
     border-radius: 25px;
     padding: 10px;
 }
@@ -214,7 +216,7 @@ header nav a:active {
     flex-wrap: wrap;
     padding: 0px 5px 5px 5px;
     align-items: flex-start;
-
+    justify-content: center;
 }
 
 #animation .col_txt {
@@ -224,7 +226,7 @@ header nav a:active {
     flex-basis: 450px;
     padding: 5px;
     border-radius: 15px;
-    background-color: aqua;
+    background-color: #EDD8AC;
 
 }
 
@@ -264,7 +266,7 @@ iframe {
     flex-grow: 1;
     flex-basis: 300px;
     padding: 0px 5px 5px 5px;
-    background-color: #3964C6;
+    background-color: #EDD8AC;
     border-radius: 25px;
 }
 
@@ -287,6 +289,36 @@ iframe {
 
 }
 
+/*________________________________om sektionen*/
+
+#om .sectionwrapper {
+    display: flex;
+    flex-basis: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 5px 5px 5px;
+    justify-content: center;
+
+}
+
+#om .col_txt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 400px;
+    background-color: #EDD8AC;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#om .col_img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 300px;
+    border-radius: 25px;
+    justify-content: center;
+}
 
 
 /*__________________________________________media_querys*/
@@ -374,6 +406,8 @@ iframe {
 /*        animation container*/
 
 @media only screen and (min-width:800px) {
+
+    #om .sectionwrapper,
     #animation .sectionwrapper {
         display: flex;
     }

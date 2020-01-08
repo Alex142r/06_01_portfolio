@@ -19,7 +19,7 @@ img {
 }
 
 section {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
 
 }
@@ -110,10 +110,10 @@ header nav a:active {
 /*_____________________________________forside_sectionen*/
 
 #forside {
-    background-image: url(Billeder/billeder_utext/portfolio_lille.jpg);
+    background-image: url(Billeder/mini_splash2.jpg);
     background-size: cover;
-    height: 95vh;
-    width: 95vw;
+    height: 100vh;
+    width: 100vw;
 
 }
 
@@ -351,7 +351,7 @@ iframe {
     #forside {
         width: 100vw;
         height: 56.25vw;
-        background-image: url(Billeder/billeder_utext/splash.jpg);
+        background-image: url(Billeder/splash.jpg);
         background-size: cover;
     }
 }

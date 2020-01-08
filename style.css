@@ -19,7 +19,7 @@ img {
 }
 
 section {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
 
 }
@@ -50,6 +50,11 @@ p {
     color: black;
     font-weight: 100;
     font-style: normal;
+}
+
+li {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
 }
 
 /*_____________________________________Typografier_slut*/
